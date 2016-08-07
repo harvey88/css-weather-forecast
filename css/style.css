@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all .1s ease-in;
+}
+html {
+	height: 100%;
+}
+html, body {
+	min-height: 100%;
+}
+body {
+	border: 15px solid #2B81AC;
+	background: #3399CC;
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.header {
+	padding: 30px 30px 30px 0 ;
+	font-size: 20px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.il-city {
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px;
+	font-size: 18px;
+	width: 25%;
+	border: 3px solid white;
+	text-align: center;
+}
+.il-cities {
+	font-size: 0;
+	max-width: 800px;
+	margin: 0 auto;
+	background: white;
+}
+.il-city-konotop{
+	width: 50%;
+	background: #3399CC;
+	border-bottom: 0;
+}
+.il-city-paris{
+	background: #33CCCC;
+	border-bottom: 0;
+}
+.il-city-kyiv{
+	background: #996699;
+	border-bottom: 0;
+}
+.il-city-moscow{
+	background: #C24747;
+}
+.il-city-cair{
+	background: #E2674A;
+}
+.il-city-new_york{
+	background: #FFCC66;
+}
+.il-city-san_franc{
+	background: #99CC99;
+}
+.il-city-madrid{
+	background: #669999;
+}
+.il-city-sydney{
+	width: 50%;
+	background: #CC6699;
+}
+.il-city-tokyo{
+	background: #339966;
+}
+.il-city-roma{
+	width: 100%;
+	background: #669;
+	border-top: 0;
+}
+.il-city .il-temperatue {
+	padding-right: 40px;
+	font-size: 18px;
+}
+.il-temperatue::after{
+	content: "°C";
+}
+ .wi{
+	font-size: 24px;
+}
+.footer {
+	padding: 30px 30px 30px 0 ;
+	max-width: 800px;
+	margin: 0 auto;
+	font-size: 20px;
+}
+.il-cities:hover .il-city:not(:hover){
+	opacity: 0.5;
+}
